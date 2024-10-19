@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #FAFBFD;
+    --secondary-color: #0077B5;
+    --button-background-hover: #08bc50;
+}
+
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 3rem;
+    align-items: center;
+    background-color: var(--primary-color) 0;
+}
+
+.navbar_left {
+    height: 3rem;
+    width: auto;
+    background-color: var(--primary-color);
+    border-radius: 0.8rem;
+    padding: 0.25rem;
+}
+
+.navbar_left a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span_1 {
+    color: #8DD7AB;
+    margin-right: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.span_2 {
+    background-color: #8DD7AB;
+    color: 	var(--primary-color);
+    border-radius: 0.4rem;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    padding: 0.1rem;
+}
+
+.navbar_right {
+    height: 3rem;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar_option_1 {
+    height: 3rem;
+    width: auto;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: #313335;
+    padding: 0.5rem 1.5rem;
+    margin: 0rem 0.25rem;
+    border: none;
+    border-radius: 3rem;
+    font-weight: bold;
+}
+
+.navbar_option_1:hover {
+    background-color: #CACCCE;
+    cursor: pointer;
+}
+
+.navbar_option_2 {
+    height: 3rem;
+    width: auto;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: #8DD7AB;
+    margin: 0rem 0.25rem;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #8DD7AB;
+    border-radius: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar_option_2:hover {
+    background-color: #8DD7AB;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,218 @@
+:root {
+    --primary-color: #ffffff;
+    --button-background-hover: #08bc50;
+    --background-color: #fdfaf5;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+.freelancer_navbar_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 3rem;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+.freelancer_navbar_left {
+    height: 3rem;
+    width: auto;
+    background-color: var(--primary-color);
+    border-radius: 0.8rem;
+    padding: 0.25rem;
+}
+
+.freelancer_navbar_left a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.freelancer_nav_span_1 {
+    color: #8dd7ab;
+    margin-right: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.freelancer_nav_span_2 {
+    background-color: #8dd7ab;
+    color: var(--primary-color);
+    border-radius: 0.4rem;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    padding: 0.1rem;
+}
+
+.freelancer_navbar_right {
+    height: 3rem;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.freelancer_chat_button {
+    border: none;
+    background: none;
+    margin-right: 2rem;
+}
+
+.freelancer_chat_button:hover {
+    cursor: pointer;
+}
+
+.freelancer_profile_button {
+    border: none;
+    background: none;
+    margin-right: 1rem;
+}
+
+.freelancer_profile_button:hover {
+    cursor: pointer;
+}
+
+.freelancer_logout {
+    height: 3rem;
+    width: auto;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: #313335;
+    padding: 0.5rem 1.5rem;
+    margin: 0rem 0.25rem;
+    border: none;
+    border-radius: 3rem;
+    font-weight: bold;
+}
+
+.freelancer_logout:hover {
+    background-color: #caccce;
+    cursor: pointer;
+}
+
+.freelancer_dash_main_area {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 95vh;
+}
+
+.freelancer_dash_main_left_area {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 90%;
+    align-items: center;
+    transform: translateY(-5%);
+}
+
+.freelancer_dash_main_left_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    width: 90%;
+    margin-top: 1rem;
+    background-color: var(--background-color);
+}
+
+.freelancer_dash_main_left_head span {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.freelancer_dash_main_posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    height: 80%;
+    overflow-y: auto;
+    border-radius: 1rem;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.freelancer_dash_job_card {
+    min-height: 20%;
+    width: 90%;
+    border-radius: 1rem;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: #f6f7f8;
+    padding: 1rem;
+    margin: 0.5rem 0rem;
+}
+
+.freelancer_dash_job_card:hover {
+    background-color: #8dd7ab;
+    color: #fafbfd;
+    cursor: pointer;
+}
+
+.freelancer_dash_main_right_area {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 90%;
+    align-items: center;
+    transform: translateY(-5%);
+}
+
+.freelancer_dash_main_right_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    width: 90%;
+    margin-top: 1rem;
+    background-color: var(--background-color);
+}
+
+.freelancer_dash_main_right_head span {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.freelancer_dash_main_requests {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    height: 22.5%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-radius: 1rem;
+    margin: 0 0.25rem;
+    padding: 0.75rem 0.5rem 0.75rem 0.5rem;
+}
+
+.freelancer_dash_applied_jobs_cards {
+    justify-content: flex;
+    background-color: #f6f7f8;
+    height: 80%;
+    min-width: 22.5%;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0rem 0.25rem;
+}
+
+.freelancer_dash_applied_jobs_cards:hover {
+    background-color: #8dd7ab;
+    color: #fafbfd;
+    cursor: pointer;
+}

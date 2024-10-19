@@ -1,0 +1,453 @@
+:root {
+    --primary-color: #FFFFFF;
+    --button-background-hover: #08bc50;
+}
+
+.producer_navbar_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 3rem;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+.producer_navbar_left {
+    height: 3rem;
+    width: auto;
+    background-color: var(--primary-color);
+    border-radius: 0.8rem;
+    padding: 0.25rem;
+}
+
+.producer_navbar_left a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.producer_nav_span_1 {
+    color: #8DD7AB;
+    margin-right: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.producer_nav_span_2 {
+    background-color: #8DD7AB;
+    color: 	var(--primary-color);
+    border-radius: 0.4rem;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    padding: 0.1rem;
+}
+
+.producer_navbar_right {
+    height: 3rem;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.producer_chat_button {
+    border: none;
+    background: none;
+    margin-right: 1.75rem;
+}
+
+.producer_chat_button:hover {
+    cursor: pointer;
+}
+
+.producer_profile_button {
+    border: none;
+    background: none;
+    margin-right: 1rem;
+}
+
+.producer_profile_button:hover {
+    cursor: pointer;
+}
+
+.producer_navbar_logout {
+    height: 3rem;
+    width: auto;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: #313335;
+    padding: 0.5rem 1.5rem;
+    margin: 0rem 0.25rem;
+    border: none;
+    border-radius: 3rem;
+    font-weight: bold;
+}
+
+.producer_navbar_logout:hover {
+    background-color: #CACCCE;
+    cursor: pointer;
+}
+
+.producer_dash_main_area {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 95vh;
+}
+
+.producer_dash_main_left_area {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 90%;
+    align-items: center;
+    transform: translateY(-5%);
+}
+
+.producer_dash_main_left_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    width: 90%;
+    margin-top: 1rem;
+    background-color: var(--background-color);
+}
+
+.producer_dash_main_left_head span {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.producer_dash_main_posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    height: 80%;
+    overflow-y: auto;
+    border-radius: 1rem;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.producer_dash_job_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 20%;
+    width: 90%;
+    border-radius: 1rem;
+    background-color: #F6F7F8;
+    padding: 1rem;
+    margin: 0.5rem 0rem;
+}
+
+.producer_dash_job_card:hover {
+    background-color: #8DD7AB;
+    color: #FAFBFD;
+    cursor: pointer;
+}
+
+.producer_dash_job_card_top {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-left: 1rem;
+}
+
+.producer_dash_job_card_top span {
+    font-size: 1.5rem;
+    font-weight: 800px;
+}
+
+.producer_dash_job_card_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+
+.producer_dash_job_card_bottom_left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.producer_dash_job_card_bottom_left span {
+    font-size: 1.2rem;
+    font-weight: 500px;
+}
+
+.producer_dash_job_card_bottom_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.producer_dash_job_card_bottom_right button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(238, 60, 90);
+    border: 0;
+    border-radius: 1rem;
+}
+
+.producer_dash_job_card_bottom_right button:hover {
+    background-color: #ec7694;
+    cursor: pointer;
+}
+
+.producer_dash_main_right_area {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 90%;
+    align-items: center;
+    transform: translateY(-5%);
+}
+
+.producer_dash_main_right_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    width: 90%;
+    margin-top: 1rem;
+    background-color: var(--background-color);
+}
+
+.producer_dash_main_right_head span {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.producer_dash_main_requests {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 90%;
+    height: 20%;
+    overflow-y: auto;
+    border-radius: 1rem;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.producer_dash_main_job_post_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: white;
+    width: 90%;
+    height: 50%;
+    overflow-y: auto;
+    border-radius: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+.producer_job_form_title {
+    width: 100%;
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.producer_job_form_title span {
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+}
+
+.producer_job_form_title input {
+    width: 50%;
+    height: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+}
+
+.producer_job_form_description {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+}
+
+.producer_job_form_description label {
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+}
+
+.producer_job_form_description textarea {
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+    padding: 0.75rem;
+}
+
+.producer_job_form_requirements {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+}
+
+.producer_job_form_requirements label {
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+}
+
+.producer_job_form_requirements textarea {
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+    padding: 0.75rem;
+}
+
+.producer_job_form_skills {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+}
+
+.producer_job_form_skills label {
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+}
+
+.producer_job_form_skills textarea {
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+    padding: 0.75rem;
+} 
+
+.producer_job_form_employment_type {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+    width: 100%;
+}
+
+.producer_job_form_employment_type label {
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+}
+
+.producer_job_form_employment_type select {
+    width: 50%;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+}
+
+.producer_job_form_location {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+    width: 100%;
+}
+
+.producer_job_form_location label {
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+}
+
+.producer_job_form_location input {
+    width: 50%;
+    height: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+}
+
+.producer_job_form_salary {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+    width: 100%;
+}
+
+.producer_job_form_salary label {
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+}
+
+.producer_job_form_salary input {
+    width: 50%;
+    height: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+}
+
+.producer_job_form_submit {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0rem;
+    width: 100%;
+}
+
+.producer_job_form_submit button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 7px;
+    width: 8rem;
+    padding: 0.75rem ;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: #8DD7AB;
+    border: 0;
+    border-radius: 0.5rem;
+}
+
+.producer_job_form_submit button:hover {
+    background-color: #22aa58;
+    cursor: pointer;
+}
+
+/* Modal */
+.applicants_card {
+    background-color: #ffffff;
+}
+.applicants_card:hover {
+    background-color: #8DD7AB;
+    color: white;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #F6F7F8;
+}
+
+.container:hover {
+    background-color: #8DD7AB;
+    color: white;
+}
+
+.container div div span a {
+    color: inherit;
+    text-decoration: none;
+}

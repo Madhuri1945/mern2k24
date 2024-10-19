@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.signup_container {
+    height: 32.5rem;
+    width: 22.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FAFBFD;
+    border-radius: 1rem;
+    border: 0.5px solid grey;
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: #8DD7AB;
+}
+
+.signup_form_fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60%;
+}
+
+.signup_form_fields input {
+    padding: 0.1rem;
+    width: 80%;
+    height: 17.5%;
+    border-radius: 1rem;
+    border: 1px solid grey;
+    text-align: center;
+    background-color: #FAFBFD;
+}
+
+.signup_form_fields select {
+    padding: 0.1rem;
+    width: 80%;
+    height: 17.5%;
+    border-radius: 1rem;
+    border: 1px solid grey;
+    text-align: center;
+    background-color: #FAFBFD;
+}
+
+.signup_form_submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup_form_submit button {
+    height: 3rem;
+    width: auto;
+    font-size: 1rem;
+    background-color: #8DD7AB;
+    color: #FAFBFD;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 3rem;
+    font-weight: bold;
+}
+
+.signup_form_submit button:hover {
+    cursor: pointer;
+}
+
+.signup_prompt {
+    margin: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.signup_prompt span {
+    font-size: 1rem;
+    margin-right: 0.25rem;
+}
+
+.signup_prompt a {
+    text-decoration: none;
+}

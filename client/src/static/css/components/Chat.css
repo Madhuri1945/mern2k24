@@ -1,0 +1,102 @@
+:root {
+    --primary-color: #FAFBFD;
+    --secondary-color: #0077B5;
+    --button-background-hover: #08bc50;
+}
+
+.chat_section_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    height: 100%;
+}
+
+.chat_section_main_msg_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.chat_section_main_msg_area::-webkit-scrollbar {
+    display: none;
+}
+
+.sent_message {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.sent_message span {
+    background-color: #2edd74;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.received_message {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.received_message span {
+    background-color: #02a844;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.chat_section_main_msg_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.chat_section_main_msg_box input {
+    width: 90%;
+    box-sizing: border-box;
+    padding:8px 6px;
+}
+
+.chat_section_main_msg_box button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--button-background-hover);
+    color: white;
+    margin-left: 1rem;
+}
+
+.chat_section_main_msg_box button:hover {
+    cursor: pointer;
+    background-color: #198745;
+}

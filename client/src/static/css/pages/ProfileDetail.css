@@ -1,0 +1,48 @@
+.profile_detail_main_area {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 95vh;
+    transform: translateY(3.5%);
+}
+
+.profile_detail_photo {
+    background-color: white;
+    width: 20%;
+    height: 45%;
+    border-radius: 1rem;
+    margin-right: 2rem;
+}
+
+.profile_detail_form {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 80%;
+    overflow-y: auto;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.profile_detail_experience_form_field {
+    width: 100%;
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.profile_detail_experience_form_field span {
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+}
+
+.profile_detail_experience_form_field input {
+    width: 50%;
+    height: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+}

@@ -1,0 +1,100 @@
+:root {
+    --primary-color: #FAFBFD;
+    --secondary-color: #0077B5;
+    --button-background-hover: #08bc50;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.chat_main_area {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 95vh;
+    transform: translateY(3.5%);
+}
+
+.chat_list {
+    background-color: white;
+    width: 30%;
+    height: 80%;
+    border-radius: 1rem;
+    margin-right: 2rem;
+    overflow-y: auto;
+}
+
+.chat_list_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7%;
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.chat_list_heading span {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--button-background-hover);
+}
+
+.chat_list_main {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    overflow-y: auto;
+}
+
+.chat_list_main::-webkit-scrollbar {
+    display: none;
+}
+
+.chat_list_main_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 9%;
+    border-radius: 1rem;
+    background-color: #F6F7F8;
+    padding: 1.5rem 1rem;
+    margin: 0.5rem 0rem;
+}
+
+.chat_list_main_card_left span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.chat_list_main_card_right button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(238, 60, 90);
+    border: 0;
+    border-radius: 10px;
+}
+
+.chat_list_main_card_right button:hover {
+    background-color: #ec7694;
+    cursor: pointer;
+}
+
+.chat_form {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 80%;
+    overflow-y: auto;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1.3rem;
+}

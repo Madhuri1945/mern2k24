@@ -1,0 +1,339 @@
+/* FOR THE PRODUCER WHOSE JOB POST IT IS */
+
+.post_detail_main_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.post_detail_form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 80%;
+    overflow-y: auto;
+    background-color: white;
+    border-radius: 1rem;
+    transform: translateY(-3.5%);
+    padding: 2rem;
+}
+
+.post_detail_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.post_detail_heading span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.post_detail_form_title {
+    width: 100%;
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.post_detail_form_title span {
+    font-size: 1.25rem;
+    margin: 0.3rem 0;
+    text-decoration: underline;
+}
+
+.post_detail_form_title input {
+    width: 50%;
+    height: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+}
+
+.post_detail_form_description {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+}
+
+.post_detail_form_description label {
+    font-size: 1.25rem;
+    margin: 0.3rem 0;
+    text-decoration: underline;
+}
+
+.post_detail_form_description textarea {
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+    padding: 0.75rem;
+}
+
+.post_detail_form_requirements {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+}
+
+.post_detail_form_requirements label {
+    font-size: 1.25rem;
+    margin: 0.3rem 0;
+    text-decoration: underline;
+}
+
+.post_detail_form_requirements textarea {
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+    padding: 0.75rem;
+}
+
+.post_detail_form_skills {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+}
+
+.post_detail_form_skills label {
+    font-size: 1.25rem;
+    margin: 0.3rem 0;
+    text-decoration: underline;
+}
+
+.post_detail_form_skills textarea {
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+    padding: 0.75rem;
+} 
+
+.post_detail_form_employment_type {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+    width: 100%;
+}
+
+.post_detail_form_employment_type label {
+    font-size: 1.25rem;
+    margin: 0.3rem 0;
+    text-decoration: underline;
+}
+
+.post_detail_form_employment_type select {
+    width: 50%;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+}
+
+.post_detail_form_location {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+    width: 100%;
+}
+
+.post_detail_form_location label {
+    font-size: 1.25rem;
+    margin: 0.3rem 0;
+    text-decoration: underline;
+}
+
+.post_detail_form_location input {
+    width: 50%;
+    height: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+}
+
+.post_detail_form_salary {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+    width: 100%;
+}
+
+.post_detail_form_salary label {
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+}
+
+.post_detail_form_salary input {
+    width: 50%;
+    height: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+}
+
+.post_detail_form_submit {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0rem;
+    width: 100%;
+}
+
+.post_detail_form_update {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.post_detail_form_update button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 7px;
+    width: 9rem;
+    padding: 0.75rem ;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: #8DD7AB;
+    border: 0;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.post_detail_form_update button:hover {
+    background-color: #22aa58;
+    cursor: pointer;
+}
+
+.post_detail_informative_message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.post_detail_informative_message span {
+    font-size: 1.25rem;
+    background-color: #5cbf83;
+    padding: 0.75rem;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+/* FOR OTHER FREELANCER OR PRODUCERS WHO ARE HAVING READ ONLY ACCESS */
+.general_post_detail_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.general_post_detail_heading h1 {
+    font-size: 2.6rem;
+    color: #8DD7AB;
+}
+
+.general_post_detail_description {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+}
+
+.general_post_detail_description h2 {
+    margin: 0.25rem 0;
+}
+
+.general_post_detail_description span {
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+}
+
+.general_post_detail_requirements {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+}
+
+.general_post_detail_requirements ul {
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+}
+
+.general_post_detail_requirements ul li {
+    margin: 0.1rem 1rem;
+}
+
+.general_post_detail_skills {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+}
+
+.general_post_detail_skills ul {
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+}
+
+.general_post_detail_skills ul li {
+    margin: 0.1rem 1rem;
+}
+
+.general_post_detail_miscellaneous {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+}
+
+.general_post_detail_miscellaneous h2 {
+    margin: 0.25rem 0;
+}
+
+.general_post_detail_miscellaneous span {
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+}
+
+.general_post_detail_apply {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.general_post_detail_apply button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 7px;
+    width: 5rem;
+    padding: 0.75rem 3.25rem;
+    font-size: 1.125rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(238, 60, 90);
+    border: 0;
+    border-radius: 0.75rem;
+}
+
+.general_post_detail_apply button:hover {
+    background-color: #ec7694;
+    cursor: pointer;
+}
